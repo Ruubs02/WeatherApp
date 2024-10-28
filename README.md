@@ -9,6 +9,8 @@ I wanted to use Three.js with this project but that was a bit too much for this 
 I used the basics for web development, which are HTML and Javascript. For CSS i used TailwindCSS instead.
 Like stated before i wanted to use Three.js but that was way out of scope for the project, i also never used it before and making a model for every type of weather was a bit too much for me.
 
+I also used Vite for the development of the app, though i haven't build it.
+
 ## How it works
 
 All you have to do is enter the location of your choosing, you can also select if you want it in Metric units or Imperial units.
