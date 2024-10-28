@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="m-0 flex h-screen items-center justify-center bg-slate-800">
+    <!-- Weather Container -->
+    <div
+      class="max-w-[400] rounded-2xl border-2 border-black bg-slate-400 p-5 text-center"
+    >
+      <!-- Temp Button -->
+      <button
+        class="font-small w-14 cursor-pointer rounded-md bg-neutral-800 p-2 text-center text-xs text-white hover:bg-neutral-600"
+        id="unit-button"
+        onclick="toggleUnit()"
+      >
+        Metric
+      </button>
+
+      <!-- Title Text -->
+      <h2 class="m-2 font-bold text-black">Weather App</h2>
+
+      <!-- City Input -->
+      <input
+        class="box-border w-4/5 rounded-3xl border-2 p-2"
+        type="text"
+        id="city"
+        placeholder="Enter City"
+      />
+      <!-- Search Button -->
+      <button
+        class="mt-5 w-24 cursor-pointer rounded-lg bg-neutral-800 p-3 text-base font-medium text-white hover:bg-neutral-600"
+        onclick="getWeather()"
+      >
+        Search
+      </button>
+
+      <!-- Location City -->
+      <div id="location-div"></div>
+
+      <!-- Temperature -->
+      <div id="temp-div"></div>
+
+      <!-- Wind Speed -->
+      <div id="windspeed-div"></div>
+
+      <!-- Weather icon -->
+      <!-- <div id="icon-div"></div> -->
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
