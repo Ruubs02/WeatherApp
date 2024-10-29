@@ -17,6 +17,6 @@ All you have to do is enter the location of your choosing, you can also select i
 After you entered your location and chose what unit system you want to use, the app will display the weather at that current time for the location.
 It will show the location, the temperature (in Celsius or Fahrenheit depending on the selected unit system) and the windspeed (in km/h or mp/h).
 
-##
+## Notes
 
 If anyone knows how to hide API keys that would be appreciated
