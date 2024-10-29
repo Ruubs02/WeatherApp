@@ -1,4 +1,4 @@
-const apiKey = "50dgN5MQaiwhJlmSEj6LCvy0inbnZWRc";
+const apiKey = "";
 
 let currentUnit = "metric";
 
